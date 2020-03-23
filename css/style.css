@@ -29,6 +29,8 @@ header h1:hover {
 main {
   background-color: #555555;
   padding: 1.5em;
+  overflow-y: auto;
+  height: 250px;
 }
 
 main .info {

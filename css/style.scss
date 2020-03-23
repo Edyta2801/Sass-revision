@@ -30,9 +30,15 @@ header {
 
 // nested selectors
 main {
-    background-color: $primaryColor;
-//   background-color: darken($primaryColor, 50%);
+  @debug "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+  background-color: $primaryColor;
+  //   background-color: darken($primaryColor, 50%);
   padding: $standardPadding;
+
+  overflow-y: auto;
+//   height: (50px*6);
+height: abs(-250px);
+
   .info {
     color: white;
     text-align: center;
@@ -65,7 +71,7 @@ main {
 
 input[type="submit"] {
   border: 1px solid $secondaryColor;
-  background-color: lighten($primaryColor,30%);
+  background-color: lighten($primaryColor, 30%);
   padding: 1em;
   margin: 0.5em;
 }
