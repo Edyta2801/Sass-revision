@@ -8,7 +8,8 @@ body {
 
 header {
   color: $primaryColor;
-  background-color: $backgroundColor;
+  //   background-color: $backgroundColor;
+  background-color: invert($backgroundColor, 60%);
   padding: $standardPadding;
   text-align: center;
   font-size: $headingFontSize;
@@ -29,7 +30,8 @@ header {
 
 // nested selectors
 main {
-  background-color: $primaryColor;
+    background-color: $primaryColor;
+//   background-color: darken($primaryColor, 50%);
   padding: $standardPadding;
   .info {
     color: white;
@@ -61,11 +63,9 @@ main {
   }
 }
 
-
-
 input[type="submit"] {
   border: 1px solid $secondaryColor;
-  background-color: $primaryColor;
+  background-color: lighten($primaryColor,30%);
   padding: 1em;
   margin: 0.5em;
 }

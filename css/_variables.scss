@@ -1,8 +1,12 @@
 // variables
 
 $primaryColor: #aa5500;
-$secondaryColor : #582c00;
+$secondaryColor: #582c00;
 $backgroundColor: #101030;
 $standardPadding: 1.5em;
 $headingFontSize: 1.2em;
 $hoverHeadingFontSize: 2em;
+
+$primaryColor: grayscale($primaryColor);
+$secondaryColor: grayscale($secondaryColor);
+$backgroundColor: grayscale($backgroundColor);

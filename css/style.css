@@ -4,22 +4,22 @@ body {
 }
 
 header {
-  color: #aa5500;
-  background-color: #101030;
+  color: #555555;
+  background-color: #939393;
   padding: 1.5em;
   text-align: center;
   font-size: 1.2em;
 }
 
 header h1 {
-  color: #aa5500;
+  color: #555555;
   font-size: 1.2em;
   -webkit-transition: all 1s;
   transition: all 1s;
-  border-bottom: 5px solid #582c00;
-  border-left: 1px solid #582c00;
-  border-right: 1px solid #582c00;
-  border-top: 1px solid #582c00;
+  border-bottom: 5px solid #2c2c2c;
+  border-left: 1px solid #2c2c2c;
+  border-right: 1px solid #2c2c2c;
+  border-top: 1px solid #2c2c2c;
 }
 
 header h1:hover {
@@ -27,7 +27,7 @@ header h1:hover {
 }
 
 main {
-  background-color: #aa5500;
+  background-color: #555555;
   padding: 1.5em;
 }
 
@@ -60,8 +60,8 @@ main .info p {
 
 input[type="submit"], #name,
 #email {
-  border: 1px solid #582c00;
-  background-color: #aa5500;
+  border: 1px solid #2c2c2c;
+  background-color: #a2a2a2;
   padding: 1em;
   margin: 0.5em;
 }
