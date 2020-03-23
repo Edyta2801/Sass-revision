@@ -1,0 +1,23 @@
+// variables
+
+$primaryColor: #aa5500;
+$backgroundColor: #101030;
+$standardPadding: 1.5em;
+$headingFontSize: 1.2em;
+
+
+
+
+
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    color:$primaryColor;
+    background-color: $backgroundColor;
+    padding: $standardPadding;
+    text-align: center;
+    font-size: $headingFontSize;
+}
