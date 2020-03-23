@@ -60,3 +60,19 @@ main {
     padding: 1em;
   }
 }
+
+
+
+input[type="submit"] {
+  border: 1px solid $secondaryColor;
+  background-color: $primaryColor;
+  padding: 1em;
+  margin: 0.5em;
+}
+#name,
+#email {
+  @extend input[type="submit"];
+  &::placeholder {
+    color: black;
+  }
+}
