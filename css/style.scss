@@ -1,4 +1,5 @@
-@import '_variables.scss';
+@import "_variables.scss";
+@import "_mixins.scss";
 
 body {
   margin: 0;
@@ -15,6 +16,10 @@ header {
     color: $primaryColor;
     font-size: $headingFontSize;
     transition: all 1s;
+
+    // add mixin
+    @include bottomBorder();
+
     // Ampersand &
     &:hover {
       font-size: $hoverHeadingFontSize;
@@ -23,7 +28,6 @@ header {
 }
 
 // nested selectors
-
 main {
   background-color: $primaryColor;
   padding: $standardPadding;
@@ -31,6 +35,10 @@ main {
     color: white;
     text-align: center;
     font-size: $headingFontSize;
+
+    // add mixin
+    @include bottomBorder();
+
     p {
       font-size: 0.7em;
       padding-bottom: $standardPadding;
