@@ -4,6 +4,7 @@ $primaryColor: #aa5500;
 $backgroundColor: #101030;
 $standardPadding: 1.5em;
 $headingFontSize: 1.2em;
+$hoverHeadingFontSize: 2em;
 
 body {
   margin: 0;
@@ -16,6 +17,15 @@ header {
   padding: $standardPadding;
   text-align: center;
   font-size: $headingFontSize;
+  h1 {
+    color: $primaryColor;
+    font-size: $headingFontSize;
+    transition: all 1s;
+    // Ampersand &
+    &:hover {
+      font-size: $hoverHeadingFontSize;
+    }
+  }
 }
 
 // nested selectors
