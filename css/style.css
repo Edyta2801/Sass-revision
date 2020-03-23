@@ -45,4 +45,16 @@ main .info p {
   font-size: 0.7em;
   padding-bottom: 1.5em;
 }
+
+.warning, .warning-big {
+  color: white;
+  font-weight: bold;
+  background-color: #ad0f03;
+  padding: 0.5em;
+}
+
+.warning-big {
+  font-size: 1.2em;
+  padding: 1em;
+}
 /*# sourceMappingURL=style.css.map */

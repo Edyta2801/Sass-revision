@@ -45,3 +45,18 @@ main {
     }
   }
 }
+
+// dziedziczenie stylów @extend
+
+.warning {
+  color: white;
+  font-weight: bold;
+  background-color: #ad0f03;
+  padding: 0.5em;
+
+  &-big {
+    @extend .warning;
+    font-size: 1.2em;
+    padding: 1em;
+  }
+}
