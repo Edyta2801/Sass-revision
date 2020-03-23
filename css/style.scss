@@ -1,10 +1,4 @@
-// variables
-
-$primaryColor: #aa5500;
-$backgroundColor: #101030;
-$standardPadding: 1.5em;
-$headingFontSize: 1.2em;
-$hoverHeadingFontSize: 2em;
+@import '_variables.scss';
 
 body {
   margin: 0;
