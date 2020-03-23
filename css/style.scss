@@ -5,19 +5,31 @@ $backgroundColor: #101030;
 $standardPadding: 1.5em;
 $headingFontSize: 1.2em;
 
-
-
-
-
-body{
-    margin:0;
-    padding:0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    color:$primaryColor;
-    background-color: $backgroundColor;
-    padding: $standardPadding;
+header {
+  color: $primaryColor;
+  background-color: $backgroundColor;
+  padding: $standardPadding;
+  text-align: center;
+  font-size: $headingFontSize;
+}
+
+// nested selectors
+
+main {
+  background-color: $primaryColor;
+  padding: $standardPadding;
+  .info {
+    color: white;
     text-align: center;
     font-size: $headingFontSize;
+    p {
+      font-size: 0.7em;
+      padding-bottom: $standardPadding;
+    }
+  }
 }

@@ -10,4 +10,20 @@ header {
   text-align: center;
   font-size: 1.2em;
 }
+
+main {
+  background-color: #aa5500;
+  padding: 1.5em;
+}
+
+main .info {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+main .info p {
+  font-size: 0.7em;
+  padding-bottom: 1.5em;
+}
 /*# sourceMappingURL=style.css.map */
