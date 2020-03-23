@@ -16,7 +16,7 @@ header h1 {
   font-size: 1.2em;
   -webkit-transition: all 1s;
   transition: all 1s;
-  border-bottom: 4px solid #582c00;
+  border-bottom: 5px solid #582c00;
   border-left: 1px solid #582c00;
   border-right: 1px solid #582c00;
   border-top: 1px solid #582c00;
@@ -35,10 +35,10 @@ main .info {
   color: white;
   text-align: center;
   font-size: 1.2em;
-  border-bottom: 4px solid #582c00;
-  border-left: 1px solid #582c00;
-  border-right: 1px solid #582c00;
-  border-top: 1px solid #582c00;
+  border-bottom: 10px solid #0033aa;
+  border-left: 5px solid #0033aa;
+  border-right: 5px solid #0033aa;
+  border-top: 5px solid #0033aa;
 }
 
 main .info p {
